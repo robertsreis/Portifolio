@@ -1,0 +1,92 @@
+.contato_fundo{
+    background-image: url("/IMG/background_contato.png");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    padding-top:5rem;
+    padding-bottom: 28rem;
+}
+.contato{
+    margin: 0 auto;
+    display: grid;
+    width: 1200px;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5rem;
+    box-sizing: border-box;
+    gap: 2rem;
+    font-family: montserrat;
+}
+.contato_texto{
+    color: rgb(0, 0, 0);
+    font-size: 1.25rem;
+    padding: .5rem;
+}
+.subtitulo_{
+    margin: 0px;
+    padding: 0;
+    font-family: montserrat;
+    font-size: 7.5rem;
+    line-height: 1;
+}
+.contato_lista{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    place-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgb(0, 0, 0);
+    line-height: 1.5;  
+    margin: 0 auto;
+    padding-top: 3rem; 
+}
+.redes{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 10px;
+}
+@media (max-device-width: 900px) {
+    .contato{
+        margin: 0 auto;
+        display: grid;
+        width: 800px;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 5rem;
+        box-sizing: border-box;
+        gap: 2rem;
+        font-family: montserrat;
+    }
+    .redes img{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 40px;
+    }
+    .redes h3{
+        font-size: 1rem;
+    }
+    }
+    @media (max-width: 600px){
+        .contato{
+        margin: 0 auto;
+        display: grid;
+        width: 500px;
+        grid-template-columns: 1fr;
+        margin-top: 2rem;
+        gap: .5rem;
+        }
+        .experiencia_texto{
+            color: rgb(0, 0, 0);
+            font-size: 1.25rem;
+            padding: .5rem;
+        }
+        .contato_fundo{
+            background-image: url("/IMG/background_contato.png");
+            background-size: 60%;
+            background-repeat: no-repeat;
+            background-position: bottom left;
+            padding-top:5rem;
+            padding-bottom: 28rem;
+        }
+    }

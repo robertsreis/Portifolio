@@ -1,0 +1,93 @@
+.experiencia{
+    margin: 0 auto;
+    display: grid;
+    width: 1200px;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 5rem;
+    box-sizing: border-box;
+    gap: 2rem;
+    padding: 5rem 0rem;
+}
+.experiencia_texto{
+    color: rgb(0, 0, 0);
+    font-size: 1.25rem;
+    width: 50ch;
+    padding: .5rem;
+}
+
+.experiencia_texto strong{
+    font-size: 1.2rem;
+    background: -webkit-linear-gradient(#ba0aff, #be2f16);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.experiencia_empresa{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.experiencia_habilidades{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-content: start;
+}
+.experiencia_habilidades li{
+    background: -webkit-linear-gradient(#ba0aff, #be2f16);
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    display: block;
+    padding: 0.5rem;
+    font-family: montserrat;
+}
+
+@media (max-width: 900px){
+    .experiencia{
+        display: grid;
+        grid-template-columns: 0.5fr 1fr;
+        width: 800px;
+        margin-top: 5rem;
+        box-sizing: border-box;
+        gap: 2rem;
+        padding: 5rem 0rem;
+        margin: 0 auto;
+    }
+    .subtitulo{
+        margin: 0px;
+        padding: 0;
+        font-family: montserrat;
+        font-size: 4.5rem;
+        line-height: 1;
+    }
+}
+@media (max-width: 600px){
+    .experiencia{
+    margin: 0 auto;
+    display: grid;
+    width: 500px;
+    grid-template-columns: 1fr;
+    margin-top: 2rem;
+    gap: .5rem;
+    }
+    .experiencia_texto{
+        color: rgb(0, 0, 0);
+        font-size: 1.25rem;
+        width: 40ch;
+        padding: .5rem;
+    }
+    .experiencia_empresa{
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+        background-color: black;
+        color: white;
+        padding: 1rem;
+        border-radius: 5px;
+    }
+}

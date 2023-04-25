@@ -1,0 +1,35 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0px;
+    padding: 0px;
+}
+.subtitulo{
+    margin: 0px;
+    padding: 0;
+    font-family: montserrat;
+    font-size: 7.5rem;
+    line-height: 1;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    color: white;
+    background-color: black;
+}
+@font-face {
+    font-family: montserrat;
+    src: url("/FONT/Montserrat-ExtraBold.ttf");
+}
